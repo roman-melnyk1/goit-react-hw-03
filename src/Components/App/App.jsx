@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
-import ContactForm from '../Components/ContactForm/ContactForm';
-import SearchBox from '../Components/SearchBox/SearchBox';
-import ContactList from '../Components/ContactList/ContactList';
+import ContactForm from '../ContactForm/ContactForm';
+import SearchBox from '../SearchBox/SearchBox';
+import ContactList from '../ContactList/ContactList';
 import styles from './App.module.css';
 
 const defaultContacts = [
