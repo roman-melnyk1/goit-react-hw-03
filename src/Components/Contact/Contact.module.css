@@ -1,0 +1,38 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.name {
+    font-weight: 500;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.number {
+    color: #7f8c8d;
+    margin: 5px 0 0 0;
+}
+
+.button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.button:hover {
+    background: #c0392b;
+}

@@ -1,0 +1,40 @@
+.form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e;
+    font-weight: 500;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background: #219a52;
+}
